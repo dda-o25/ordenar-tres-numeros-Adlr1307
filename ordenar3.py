@@ -4,24 +4,24 @@ Andrés Enrique Jaime de la Rosa 763799
 """
 
 # Entradas
-primern = int(input("Escriba el primer número "))
-segundon = int(input("Escriba el segundo número "))
-tercern = int(input("Escriba el tercer número "))
+primern = int(input())
+segundon = int(input())
+tercern = int(input())
 
 # Proceso
 if primern > segundon and primern> tercern:
     if segundon > tercern:
-        print("Números ordenados:",primern,segundon,tercern)
+        print(primern,segundon,tercern)
     else:
-        print("Números ordenados:",primern,tercern,segundon)
+        print(primern,tercern,segundon)
 elif segundon > primern and segundon> tercern:
     if primern > tercern:
-        print("Números ordenados:",segundon,primern,tercern)
+        print(segundon,primern,tercern)
     else:
-        print("Números ordenados:",segundon,tercern,primern)
+        print(segundon,tercern,primern)
 elif tercern > segundon and tercern> primern:
     if primern > segundon:
-        print("Números ordenados:",tercern,primern,segundon)
+        print(tercern,primern,segundon)
     else:
-        print("Números ordenados:",tercern,segundon,primern)
+        print(tercern,segundon,primern)
 
